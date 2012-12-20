@@ -14,7 +14,7 @@ cd ..
 git reset --hard
 git pull
 cd src
-make $make_flags clean
+#make $make_flags clean            #not necessary
 make $make_flags
 cp dmd $install_dir/bin
 
